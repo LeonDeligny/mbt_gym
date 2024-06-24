@@ -3,7 +3,7 @@ USER root
 
 RUN apt-get -y update \
     && apt-get -y upgrade \
-    && apt-get -y install \
+    && apt-get -y install fish tmux python3-pip postgresql postgresql-contrib \
     fish \
     tmux \
     python3-pip
